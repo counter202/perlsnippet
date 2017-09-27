@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ffmepg bath folder m4a to mp3", 
+  "value": [
+    "", 
+    "for /R %1 %%v in (*.m4a) do (", 
+    "    echo converting \"%%~nxv\" ...", 
+    "    \"C:\\Program Files (x86)\\ffmepg\\bin\\ffmpeg.exe\" -i \"%%v\" \"%%~nv.mp3\"", 
+    "    set /A nfile+=1", 
+    ")", 
+    "echo Done! Converted %nfile% file(s)!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

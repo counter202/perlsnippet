@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "clean filename fo local $dlfilename=~ s/[^A- ... \\_\\-.]//g;", 
+  "value": [
+    "!@#_anchor$dlfilename=~ s/[^A-Za-z0-9\\-\\s\\.\\(\\)\\_\\-.]//g;!@#_currentPos"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

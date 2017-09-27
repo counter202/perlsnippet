@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fiddler write response", 
+  "value": [
+    "  if(oSession.url.Contains(\"info\")) {", 
+    "            var directory: String = \"c\\:\\\\work\\\\fiddler\\\\\";", 
+    "            var path: String = directory+Guid.NewGuid()+\"test.txt\";", 
+    "", 
+    "            oSession.SaveResponseBody(path);", 
+    "                      ", 
+    "        }", 
+    "        ", 
+    "        if(oSession.url.Contains(\"mp3\")) {", 
+    "            ", 
+    "", 
+    "            var url = oSession.url;", 
+    "            var filename = url.substring(url.lastIndexOf('/')+1);", 
+    "            var directorymp3: String = \"c\\:\\\\work\\\\fiddler\\\\\";", 
+    "            var pathmp3: String = directorymp3+Guid.NewGuid()+\"test.mp3\";", 
+    "", 
+    "            oSession.SaveResponseBody(pathmp3);", 
+    "                      ", 
+    "        }!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

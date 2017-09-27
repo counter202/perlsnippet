@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file input my $input = \"C\\:\\\\wo ... .= $_; }", 
+  "value": [
+    "my $input = \"!@#_currentPos !@#_anchor\";", 
+    "open(IN,\"<$input\") || die(\"Can't open input file $input: $!.\");", 
+    "while (<IN>) {", 
+    "  $res .= $_;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}
