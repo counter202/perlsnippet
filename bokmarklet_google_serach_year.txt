@@ -1,0 +1,1 @@
+javascript:!function(){location.search=location.search.replace(/&tbs=[^&]*|$/,"&tbs=qdr:y")}()
