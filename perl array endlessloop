@@ -1,0 +1,6 @@
+my(@names) = ('John', 'Helen', 'Dave');
+while (1) {
+$name =shift(@names);
+print $name.";
+push(@names,$name);
+}
